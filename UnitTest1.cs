@@ -8,18 +8,18 @@ namespace TestProject1
         [TestMethod]
         public void TestToString()
         {
-            var testName = "Тестирование";
+            var testName = "РўРµСЃС‚РёСЂРѕРІР°РЅРёРµ";
             var var14Classes = new Var14_Classes(testName);
 
             var result = var14Classes.ToString();
 
-            Assert.AreEqual($"Вид занятия:{testName}", result);
+            Assert.AreEqual($"Р’РёРґ Р·Р°РЅСЏС‚РёСЏ:{testName}", result);
         }
         [TestMethod]
         public void TestConstructor()
         {
             
-            var testName = "Тестирование";
+            var testName = "РўРµСЃС‚РёСЂРѕРІР°РЅРёРµ";
 
             
             var var14Classes = new Var14_Classes(testName);
